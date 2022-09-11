@@ -20,7 +20,7 @@ To fetch fresh repository, follow [section below](#how-to-clone-the-repository)
 To clone the repository, run the following command
 
 ```
-git clone https://github.com/saleor/saleor-platform.git --recursive --jobs 3
+git clone https://github.com/liunardy/saleor-platform.git --recursive --jobs 3
 ```
 
 ## How to run it?
@@ -87,7 +87,7 @@ docker-compose up
 ## Where is the application running?
 - Saleor Core (API) - http://localhost:8000
 - Saleor React Storefront - http://localhost:3001
-- Saleor Dashboard - http://localhost:9000
+- Saleor Dashboard - http://localhost:9001
 - Jaeger UI (APM) - http://localhost:16686
 - Mailhog (Test email interface) - http://localhost:8025 
 
